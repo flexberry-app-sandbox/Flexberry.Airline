@@ -11,7 +11,7 @@
     "Validate": false,
     "Frontend": {
       "EmberJs": {
-        "EmberApp": true,
+        "EmberApp": false,
         "EmberAddon": false,
         "Build": false,
         "GitClone": false,
@@ -25,12 +25,12 @@
       }
     },
     "Backend": {
-      "AspNet": false,
-      "AspNetCore": true,
+      "AspNet": true,
+      "AspNetCore": false,
       "Java": false
     },
     "Docker": {
-      "Dockerfile": true,
+      "Dockerfile": false,
       "DockerfileAutobuild": false,
       "DockerBuildShellScript": false,
       "DockerSwarm": false
@@ -43,7 +43,7 @@
     "Storage": {
       "Mssql": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
@@ -51,7 +51,7 @@
       },
       "PostgreSql": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
@@ -64,7 +64,7 @@
       },
       "Oracle": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "ConnectionString": null
       },
       "Access": {
